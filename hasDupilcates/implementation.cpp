@@ -3,7 +3,7 @@
 
 using namespace std;
 
-
+/*
 // novice implementation
 bool hasDuplicate(vector<int>& nums){
     for (int i = 0; i < nums.size(); i++){
@@ -12,6 +12,25 @@ bool hasDuplicate(vector<int>& nums){
                 return true;
             }
         }
+    }
+    return false;
+}
+*/
+
+// sorted implementation
+bool hasDuplicate(vector<int>& nums){
+    if (nums.size() == 0){
+        return false;
+    }
+
+    std::sort(nums.begin(), nums.end());
+    int i = 0, j = 1;
+    while (i < nums.size() - 1){
+        if (nums[i] == nums[j]){
+            return true;
+        }
+        i++;
+        j++;
     }
     return false;
 }
