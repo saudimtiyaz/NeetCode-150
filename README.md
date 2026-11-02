@@ -1,4 +1,4 @@
-NeetCode 150 — Data Structures & Algorithms
+# NeetCode 150 — Data Structures & Algorithms
 
 A collection of my solutions to the NeetCode 150 problems, implemented in C++.
 
@@ -6,7 +6,7 @@ This repository documents my journey of strengthening my understanding of data s
 
 The goal is not simply to solve 150 problems, but to develop a deeper understanding of why algorithms work, how to optimize them, and when to use different approaches.
 
-Objectives
+## Objectives
 
 * Develop strong foundations in data structures and algorithms.
 * Improve algorithmic thinking and problem-solving skills.
@@ -15,7 +15,7 @@ Objectives
 * Practice writing clean, efficient, and maintainable C++ code.
 * Prepare for technical interviews and software engineering internships.
 
-Problem-Solving Approach
+## Problem-Solving Approach
 
 For each problem, I aim to follow a structured process:
 
@@ -27,7 +27,7 @@ For each problem, I aim to follow a structured process:
 6. Test: Verify correctness using sample inputs and edge cases.
 7. Document: Record important insights and lessons learned.
 
-Complexity Analysis
+## Complexity Analysis
 
 Solutions may include comments documenting their computational complexity.
 
@@ -36,7 +36,7 @@ Solutions may include comments documenting their computational complexity.
 
 Where applicable, I will document the trade-offs between different approaches.
 
-Learning Philosophy
+## Learning Philosophy
 
 My focus is on understanding algorithms rather than memorizing solutions.
 
@@ -46,8 +46,8 @@ I aim to answer three questions for every problem:
 * Efficiency: What are its time and space complexities?
 * Optimization: Can the problem be solved more efficiently?
 
-Disclaimer
+### Disclaimer
 
 All solutions are written for educational purposes and personal practice. Some problems may contain multiple approaches as I explore different algorithms and optimizations.
 
-Consistency over memorization. Understanding over shortcuts.
+*Consistency over memorization. Understanding over shortcuts.*

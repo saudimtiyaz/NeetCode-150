@@ -1,0 +1,15 @@
+# Compiled executables
+a.out
+*.out
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# macOS
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
